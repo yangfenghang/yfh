@@ -58,7 +58,7 @@
 				}
 				if(this.describe.flag=="dcz") {
 					uni.switchTab({
-						url: "../charge/index"
+						url: "../authen/index"
 					})
 				}
 				if(this.describe.flag=="zhifu") {
