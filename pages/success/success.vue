@@ -68,7 +68,7 @@
 				}
 				if(this.describe.flag=="zhifu2") {
 					uni.switchTab({
-						url: '../bill/index'
+						url: '../authen/index'
 					})
 				}
 			},
