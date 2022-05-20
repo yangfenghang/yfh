@@ -1,0 +1,1 @@
+export const URL = "https://anx.aneproject.com/anx-boot";//接口地址

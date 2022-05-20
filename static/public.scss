@@ -1,0 +1,27 @@
+.h_title{
+	display: flex;
+	padding: 40rpx 0;
+	.left{
+		margin: auto auto auto 0;
+		font-size: 36rpx;
+		font-weight: 900;
+	}
+	.right{
+		margin: auto 0 auto auto;
+		button{
+			background-color: #D9FFF4;
+			border-radius: 35rpx;
+			padding: 0 25rpx;
+			font-size: 30rpx;
+			height: 60rpx;
+			line-height: 60rpx;
+			outline: none;
+			border:none;
+			border: 1rpx solid #BEEFD4;
+			color: #04A376;
+			&::after{
+				border: none;
+			}
+		}
+	}
+}

@@ -1,0 +1,183 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom" // 隐藏系统导航栏
+			}
+		}, {
+			"path": "pages/bill/index",
+			"style": {
+				"navigationStyle": "custom" // 隐藏系统导航栏
+			}
+		}, {
+			"path": "pages/bill/zdmx",
+			"style": {
+				"navigationStyle": "custom" // 隐藏系统导航栏
+			}
+		}, {
+			"path": "pages/charge/index",
+			"style": {
+				"navigationStyle": "custom" // 隐藏系统导航栏
+			}
+		}, {
+			"path": "pages/mine/index",
+			"style": {
+				"navigationStyle": "custom" // 隐藏系统导航栏
+			}
+		}, {
+			"path": "pages/login/index",
+			"style": {
+				"navigationStyle": "custom" // 隐藏系统导航栏
+			}
+		}, {
+			"path": "pages/room/index",
+			"style": {
+				"navigationStyle": "custom" // 隐藏系统导航栏
+			}
+		}, {
+			"path": "pages/info/index",
+			"style": {
+				"navigationStyle": "custom" // 隐藏系统导航栏
+			}
+		}, {
+			"path": "pages/authen/index",
+			"style": {
+				"navigationStyle": "custom" // 隐藏系统导航栏
+			}
+
+		}, {
+			"path": "pages/myinfo/index",
+			"style": {
+				"navigationStyle": "custom" // 隐藏系统导航栏
+			}
+
+		}, {
+			"path": "pages/login/phone_login",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/withdrawal/withdrawal", // 提现
+			"style": {
+				"navigationBarTitleText": "金额提现"
+				// "enablePullDownRefresh": false,
+				
+				// "app-plus": {
+				// 	"titleNView": false
+				// }
+			}
+		}
+
+		, {
+			"path": "pages/addBankCard/addBankCard",
+			"style": {
+				"navigationBarTitleText": "添加银行卡"
+			}
+		}, {
+			"path": "pages/zdList/zdList",
+			"style": {
+				"navigationBarTitleText": "账单明细",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#37B08F",
+				"navigationBarTextStyle": "white"
+			}
+		}
+	    ,{
+            "path" : "pages/success/success",
+            "style": {
+            	"navigationStyle": "custom" // 隐藏系统导航栏
+            }
+            
+        }
+        ,{
+            "path" : "pages/cbjl/cbjl",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "抄表记录",
+                "enablePullDownRefresh": true,
+				"navigationBarBackgroundColor": "#37B08F",
+				"navigationBarTextStyle": "white"
+            }
+            
+        }
+        ,{
+            "path" : "pages/gywm/gywm",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/details/details",
+            "style": {
+            	"navigationStyle": "custom" // 隐藏系统导航栏
+            }
+        }
+        ,{
+            "path" : "pages/message/message",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "发送消息",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#37B08F",
+				"navigationBarTextStyle": "white"
+            }
+            
+        }
+        ,{
+            "path" : "pages/details2/details2",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/grid/grid",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "报修申请",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#37B08F",
+				"navigationBarTextStyle": "white"
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "首页",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": ""
+			}, {
+				"pagePath": "pages/bill/index",
+				"text": ""
+			},
+			{
+				"pagePath": "pages/charge/index",
+				"text": ""
+			},
+			{
+				"pagePath": "pages/mine/index",
+				"text": ""
+			}
+		]
+	}
+}
