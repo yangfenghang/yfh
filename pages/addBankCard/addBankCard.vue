@@ -65,25 +65,18 @@ export default {
 			uni.navigateTo({
 				url: "../withdrawal/withdrawal"
 			})
-			// 
-			// 
-			// 
-			// 
-			// rrrrrrrrrrrrrrrrrrrrrrr
-			// rrrrrrrrrrrrr
-			// rrrrrrrrrrrrr
-			// rrrrrrrrrrrrr
-			// rrrrrrrrrrrrr
-			// rrrrrrrrrrrrr
-			// rrrrrrrrrrrrr
-			// rrrrrrrrrrrrr
-			// rrrrrrrrrrrrr
-			// rrrrrrrrrrrrr
-			// rrrrrrrrrrrrr
-			// rrrrrrrrrrrrr
-			// rrrrrrrrrrrrr
-			// rrrrrrrrrrrrr
-			// rrrrrrrrrrrrr
+			console.log("qqqqqqqqqqqqqqqqqqqqqqqq");
+			console.log("qqqqqqqqqqqqqqqqqqqqqqqq");
+			console.log("qqqqqqqqqqqqqqqqqqqqqqqq");
+			console.log("qqqqqqqqqqqqqqqqqqqqqqqq");
+			console.log("qqqqqqqqqqqqqqqqqqqqqqqq");
+			console.log("qqqqqqqqqqqqqqqqqqqqqqqq");
+			console.log("qqqqqqqqqqqqqqqqqqqqqqqq");
+			console.log("qqqqqqqqqqqqqqqqqqqqqqqq");
+			console.log("qqqqqqqqqqqqqqqqqqqqqqqq");
+			console.log("qqqqqqqqqqqqqqqqqqqqqqqq");
+			console.log("qqqqqqqqqqqqqqqqqqqqqqqq");
+			console.log("qqqqqqqqqqqqqqqqqqqqqqqq");
 
 		},
 		mine() {
